@@ -7,7 +7,16 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.top-editor{
+    background-color: #e2eaed;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+.top-editor img{
+    background-color: #feaa25;
+    padding: 15px;
+    border-radius: 25px;
+}
 .primary-button{
     background-color: #2500f9;
     color: white;
