@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 header{
     background-image: url(../images/main-bg.png);
@@ -41,10 +41,19 @@ header{
 .div-border{
     border-right: 2px solid;
 }
+
+.apps-all-features{
+    padding: 40px 300px;
+}
+
+
+/* responsive */
 @media only screen and (max-width: 668px) {
     .div-border{
         border-right:unset;
         border-bottom: 3px solid;
     }
-    
+    .apps-all-features{
+        padding: 20px 30px;
+    }
 }
