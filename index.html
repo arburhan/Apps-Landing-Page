@@ -226,7 +226,7 @@
        </div>
        <div class="text-center">
            <div class="py-5 d-flex flex-column flex-md-row justify-content-center">
-                <button onclick="monthly()" class="primary-button my-1 mx-3 mx-md-0 ">Monthly</button><button onclick="annually()" class="hover-button my-1 mx-3">Annually</button>
+                <button id="monthlyID" onclick="monthly()" class="primary-button my-1 mx-3 mx-md-0 ">Monthly</button><button id="annuallyID" onclick="annually()" class="hover-button my-1 mx-3">Annually</button>
            </div>
            <div id="cards-div" class="row row-cols-1 row-cols-md-2 justify-content-center">
                 <div class="card mb-3 " style="max-width: 22rem; background-color: #fafafa;">
@@ -249,7 +249,10 @@
                     <p class="card-text">Blog Support Tools</p>
                     <p class="card-text">eCommerce Store</p>
                     </div>
-                <div class="card-footer bg-transparent border-0"><button class="primary-button my-1 mx-3 mx-md-0 text-center">Subscribe Now</button></div>
+                <div class="card-footer bg-transparent border-0">
+                    <button class="border-0 bg-transparent text-primary py-3">Start 14 days trail</button>
+                    <button class="primary-button my-1 mx-3 mx-md-0 text-center">Subscribe Now</button>                   
+                </div>               
               </div>
            </div>
        </div>
@@ -257,5 +260,7 @@
     </section>
     <!-- bootstrap script -->
     <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- app js -->
+    <script src="js/app.js"></script>
 </body>
 </html>
