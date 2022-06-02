@@ -59,9 +59,15 @@ header {
     width: 100%;
     padding: 15px;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
+footer {
+    background-image: url('../images/footer-bg.png');
+    width: 100%;
+    padding: 15px;
+    background-repeat: no-repeat;
+
+}
 
 /* responsive */
 @media only screen and (max-width: 668px) {
